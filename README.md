@@ -95,3 +95,27 @@ Model Performance:
 
 ![image](https://user-images.githubusercontent.com/120099863/213538143-4da5014d-356b-41b9-8228-f70ea5780b76.png)
 
+### Fourth Step
+
+Target:
+*   Lower number of parameters (Meet our 2nd target of <=8000 Parameters)
+
+Results:
+*   Total Parameters: 7,944
+*   Best Training Accuracy: 99.21%
+*   Best Test Accuracy: 99.46%
+
+Analysis:
+*   Model was able to achieve it's target of 99.40% accuracy at 8th epoch with less than 8k parameters and remained more than 99.40% after that.
+*   Model Architecture is the same as the previous one but with reduced filter sizes.
+*   It trained well and has higher test accuracy than training accuracy across epochs.
+*   Even with a lower number of parameters compared to the previous model, it was able to give good results earlier than the previous model!
+
+Model Summary:
+
+![image](https://user-images.githubusercontent.com/120099863/213538566-5c4bbca5-0029-463d-b7f5-b1af1611bb1d.png)
+
+Model Performance:
+
+![image](https://user-images.githubusercontent.com/120099863/213538722-9cb4aadb-cd0b-4d06-96b3-e2947e3130aa.png)
+
