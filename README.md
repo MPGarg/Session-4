@@ -119,3 +119,11 @@ Model Performance:
 
 ![image](https://user-images.githubusercontent.com/120099863/213538722-9cb4aadb-cd0b-4d06-96b3-e2947e3130aa.png)
 
+## Inference
+
+* Approach problem in structured manner
+* First get your network working
+* Next focus to finalize your network design
+* After design is done, for model performance improvement go for regularizations, step learning etc. 
+* One thing at time is preferred to know it's exact impact to model. 
+* At last reach goal to have better accuracy!
