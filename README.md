@@ -70,3 +70,28 @@ Model Performance:
 
 ### Third Step
 
+Target:
+*   Lower number of parameters (Meet our target of <=10000 Parameters)
+*   Increase model capacity by adding Convolution layer afer GAP
+*   Add Transformations 
+*   Use Step Learning to stablize results
+
+Results:
+*   Total Parameters: 9,550
+*   Best Training Accuracy: 99.20%
+*   Best Test Accuracy: 99.45%
+
+Analysis:
+*   Model was able to achieve it's target of 99.40% accuracy at 9th epoch and remained more than 99.40% after that.
+*   Adding transformations like Random Rotation & Color Jitter helped the model to learn better and become more resilient.
+*   Adding Convolution layer after GAP increased performance of model. 
+*   Step Learning with higher starting learning rate of and decent step size helped the model in learning fast and stabilizing accuracy in later stages.
+
+Model Summary:
+
+![image](https://user-images.githubusercontent.com/120099863/213538020-fa3321f4-2bff-48f7-b392-bfadc3b8c553.png)
+
+Model Performance:
+
+![image](https://user-images.githubusercontent.com/120099863/213538143-4da5014d-356b-41b9-8228-f70ea5780b76.png)
+
