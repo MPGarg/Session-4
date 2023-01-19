@@ -126,4 +126,4 @@ Model Performance:
 * Next focus to finalize your network design
 * After design is done, for model performance improvement go for regularizations, step learning etc. 
 * One thing at time is preferred to know it's exact impact to model. 
-* At last reach goal to have better accuracy!
+* At last reach goal! 
