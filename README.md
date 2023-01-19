@@ -12,3 +12,31 @@
 * In the fourth step, the model is tweaked further for lowering parameters using the same architecture. Target of 99.40% accuracy with <8k parameters was achieved in this step.
 
 Details of all steps are mentioned below.
+
+### First Step
+
+Target:
+*   Get the set-up right
+*   Set Transforms (with Image Normalization)
+*   Set Data Loader
+*   Set Basic Working Code
+*   Set Basic Training  & Test Loop
+
+Results:
+*   Total Parameters: 6,969,866
+*   Best Training Accuracy: 99.87%
+*   Best Test Accuracy: 99.25%
+
+Analysis:
+*   Model is overfitting. It can be inferred from training accuracy that it has nearly learnt (what it can) but test accuracy is still low and has not reached our target.
+*   In nearly all epochs training accuracy is more than testing accuracy. Model has started remembering training data and is resulting in lower test accuracy. 
+*   Parameters in this model need to be reduced and regularized to make the model learn better.
+
+Model Summary:
+
+![image](https://user-images.githubusercontent.com/120099863/213536766-9f702fe9-517f-4f84-a30d-a92607e200f4.png)
+
+Model Performance:
+
+![image](https://user-images.githubusercontent.com/120099863/213537036-ee60eac9-5586-4521-972f-0c3f0e4419ef.png)
+
