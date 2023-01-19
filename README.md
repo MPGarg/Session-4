@@ -40,3 +40,33 @@ Model Performance:
 
 ![image](https://user-images.githubusercontent.com/120099863/213537036-ee60eac9-5586-4521-972f-0c3f0e4419ef.png)
 
+### Second Step
+
+Target:
+*   Lower number of parameters (Near to our target of <=10000 Parameters)
+*   Batch-norm to increase model efficiency
+*   DropOut to avoid overfitting
+*   Add GAP Layer and remove last big kernel
+
+Results:
+*   Total Parameters: 12,862
+*   Best Training Accuracy: 98.89%
+*   Best Test Accuracy: 99.01%
+
+Analysis:
+*   Model learned well and can do better if pushed to more epochs. But with current capacity it is not possible to push further.
+*   Introducing Batch Normalization has helped the model in learning even with reduced parameters.
+*   DropOut made the model resilient and we got Testing accuracy better than Training accuracy. 
+*   GAP layer has not reduced accuracy (size of 8 is used in model)
+*   More regularization techniques are needed to make this work with even fewer parameters and have to achieve higher test accuracy!
+
+Model Summary:
+
+![image](https://user-images.githubusercontent.com/120099863/213537528-2dc48774-dc20-44c0-aac2-ec1f8b0648c9.png)
+
+Model Performance:
+
+![image](https://user-images.githubusercontent.com/120099863/213537712-9a1ff32e-36a5-4e8f-9ddd-237ff3798266.png)
+
+### Third Step
+
